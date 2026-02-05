@@ -15,3 +15,16 @@ const dadoComputer = parseInt (Math.random() * 6) + 1;
 console.log("Dado giocatore:", dadoGiocatore);
 console.log("Dado computer:", dadoComputer);
 
+// Creo una condizione if dove:
+// Se il numero random del giocatore è maggiore del pc, ha vinto il giocatore!!
+if (dadoGiocatore > dadoComputer) {
+    console.log("Hai vinto! 🏆");
+
+// Se il numero random del giocatore è minore del pc, ha vinto il pc!!
+} else if (dadoGiocatore < dadoComputer) {
+    console.log("Ha vinto il computer 💻");
+
+// Altrimenti se i numeri sono uguali c'è un pareggio
+} else {
+    console.log("Pareggio 🤝");
+}
