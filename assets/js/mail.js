@@ -31,7 +31,7 @@ if (emailUtente !== null) {
         emailTrovata = true;
         }
     }
-// Se corrisponde e si sono verificato tutto l'accesso viene consentito altrimenti stampa l'accesso negato
+// Se corrisponde e si è verificato tutto l'accesso viene consentito altrimenti stampa l'accesso negato
     if (emailTrovata) {
         console.log("Accesso consentito: Ciao!! Sei invitato alla festa 🥳 🎊 🎉 🎁");
     } else {
