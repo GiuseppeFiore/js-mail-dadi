@@ -11,3 +11,7 @@
 const dadoGiocatore = parseInt (Math.random() * 6) + 1;
 const dadoComputer = parseInt (Math.random() * 6) + 1;
 
+// Stampo i risultati sia del giocatore che del pc
+console.log("Dado giocatore:", dadoGiocatore);
+console.log("Dado computer:", dadoComputer);
+
