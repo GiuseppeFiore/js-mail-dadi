@@ -8,8 +8,8 @@
 
 // Genero un numero random da 1 a 6 per il giocatore utilizzando parseInt perchè vogliamo solo numeri interi senza decimali o altro
 // Con math.random genero un numero del tutto casuale in questo caso compreso da 1 a 6 
-const dadoGiocatore = parseInt (Math.random() * 6) + 1;
-const dadoComputer = parseInt (Math.random() * 6) + 1;
+const dadoGiocatore = Math.floor (Math.random() * 6) + 1;
+const dadoComputer = Math.floor (Math.random() * 6) + 1;
 
 // Stampo i risultati sia del giocatore che del pc
 console.log("Dado giocatore:", dadoGiocatore);
